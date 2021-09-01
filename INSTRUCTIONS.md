@@ -2,7 +2,10 @@
 
 ## 📝 Your Notes
 
-Elaborate on your learnings here in `INSTRUCTIONS.md`
+- emotion is a great library for styling React components. It allows us to
+  create styled components that can be reused, and it also allows us to style
+  components inline using the `css` property for things that won't be reused.
+  See exercise for examples of both of these
 
 ## Background
 
