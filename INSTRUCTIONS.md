@@ -2,7 +2,13 @@
 
 ## 📝 Your Notes
 
-Elaborate on your learnings here in `INSTRUCTIONS.md`
+- The `@reach/dialog` dialog component is nice for adding dialogs - nice
+  accessibility built in
+- When submitting a form we need to first call `event.preventDefault()` to
+  prevent a full page refresh
+- Submitting the form does not automatically give us access to form data. To get
+  that we need to access the various input components and get their data
+- React labels use `htmlFor` instead of the html `for` property
 
 ## Background
 
