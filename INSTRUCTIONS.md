@@ -6,6 +6,12 @@
   create styled components that can be reused, and it also allows us to style
   components inline using the `css` property for things that won't be reused.
   See exercise for examples of both of these
+- Importing emotion styled components from `@emotion/styled/macro` instead of
+  `@emotion/styled` will make it so the css class names that are generated all
+  have the name of the component they are generated for included in the class
+  name
+- Good to abstract colors and media queries to a separate `styles` directory
+- emotion also handles css animations
 
 ## Background
 
